@@ -6,4 +6,3 @@ socialImage: "./book.jpg"
 
 ## Hello! How to contact me!
 
-This is my email: 

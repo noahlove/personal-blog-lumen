@@ -4,10 +4,11 @@ date: "2023-02-18T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "/posts/using-mamba-and-conda-in-python"
-category: "General"
+category: "Python"
 tags:
-  - "General"
-  - "Starting"
+  - "Python"
+  - "Mamba"
+  - "Conda"
 description: "A list of commands for Mamba and python environments"
 socialImage: "../../photo.jpg"
 ---

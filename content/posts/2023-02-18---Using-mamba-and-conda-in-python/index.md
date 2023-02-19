@@ -74,6 +74,11 @@ mamba install -n ENV_NAME PACKAGE
 mamba update -n ENV_NAME --all
 ```
 
+If you want to add with pip (have the environment activated already)
+```
+python -m pip install PACKAGE
+```
+
 Removing a package
 ```
 mamba remove -n ENV_NAME PACKAGE

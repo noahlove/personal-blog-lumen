@@ -43,6 +43,28 @@ Another difference between Mamba and Conda is that Mamba uses a different solver
 - Use virtual environments within Conda environments: Conda can be used to manage virtual environments, which allow you to further isolate packages and dependencies within an environment. This can be useful when you need to use multiple versions of the same package within the same environment.
 
 
+## My most used commands:
+Create a python 3.10 environment 
+```
+mamba create -n ENVIRONMENT_NAME python=3.10
+```
+
+Then activate that environment:
+```
+mamba activate ENVIRONMENT_NAME
+```
+
+Then install my first package (to make sure it works, and so that jupyter runs)
+```
+mamba install ipykernel
+```
+
+And for packages that aren't in mamba, and only in pip (for example, ShopifyAPI):
+```
+python -m pip install ShopifyAPI
+```
+
+
 ## Commands
 
 
